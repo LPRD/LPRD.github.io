@@ -33,8 +33,12 @@
       i {
         color: #000000;
       }
-                                                            
-      .row {
+<style>
+* {
+    box-sizing: border-box;
+}
+
+.row {
     display: -ms-flexbox; /* IE10 */
     display: flex;
     -ms-flex-wrap: wrap; /* IE10 */
@@ -42,11 +46,11 @@
     padding: 0 4px;
 }
 
-/* Create two equal columns that sits next to each other */
-.column
+/* Create four equal columns that sits next to each other */
+.column {
     -ms-flex: 50%; /* IE10 */
     flex: 50%;
-    max-width: 100%;
+    max-width: 50%;
     padding: 0 4px;
 }
 
@@ -55,15 +59,24 @@
     vertical-align: middle;
 }
 
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media (max-width: 1200px) {
+@media (max-width: 600px) {
     .column {
         -ms-flex: 100%;
         flex: 100%;
         max-width: 100%;
     }
 }
-}                                                       
+</style>                                                       
                                                             
                                                             
                                                             
@@ -182,14 +195,16 @@
                                                               
 <div class="row"> 
   <div class="column">
-    <img src="img/LPRDBrand/LPRDFaviconCut.png" style="width:50%">
-    <img src="img/LandingPageImg/lprdrocketryfakesplash.png" style="width:50%">
+    <img src="img/LPRDBrand/LPRDFaviconCut.png" style="width:100%>
+  </div>  
+  div class="column">
+    <img src="img/LandingPageImg/lprdrocketryfakesplash.png" style="width:100%">
   </div>
-</div>                                                                              
-<div class="row">                                                                              
+  div class="column">
+    <img src="img/LandingPageImg/lprdrocketryfakesplash.png" style="width:100%">
+  </div>                                                                            
   <div class="column">
-    <img src="img/LandingPageImg/lprdrocketryfakesplash.png" style="width:50%">
-    <img src="img/LPRDBrand/LPRDFaviconCut.png" style="width:50%">
+    <img src="img/LPRDBrand/LPRDFaviconCut.png" style="width:100%">
   </div>
 </div>
                                                                   
