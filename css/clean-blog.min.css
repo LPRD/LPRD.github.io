@@ -5,6 +5,7 @@
  */
 
 body {
+  padding-top: 20px;
   font-size: 20px;
   color: #212529;
   font-family: 'Lora', 'Times New Roman', serif;
@@ -170,7 +171,7 @@ img::-moz-selection {
   #mainNav.is-fixed {
     /* when the user scrolls down, we hide the header right above the viewport */
     position: fixed;
-    top: -50px;
+    top: -67px;
     -webkit-transition: -webkit-transform 0.2s;
     transition: -webkit-transform 0.2s;
     transition: transform 0.2s;
