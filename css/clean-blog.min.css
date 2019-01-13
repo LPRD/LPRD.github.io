@@ -143,7 +143,7 @@ img::-moz-selection {
     background: transparent;
   }
   #mainNav .navbar-brand {
-    padding: 10px 20px;
+    padding: 5px 20px;
     color: #fff;
   }
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -192,8 +192,8 @@ img::-moz-selection {
   }
   #mainNav.is-visible {
     /* if the user changes the scrolling direction, we show the header */
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0);
+    -webkit-transform: translate3d(0, 120%, 0);
+    transform: translate3d(0, 120%, 0);
   }
 }
 
