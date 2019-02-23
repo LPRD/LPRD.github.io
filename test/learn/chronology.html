@@ -3,11 +3,12 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Learn &mdash; Free Website Template, Free HTML5 Template by freehtml5.co</title>
+	<title>LPRD &mdash; Student-Built Rockets</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
-	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
-	<meta name="author" content="freehtml5.co" />
+	<meta name="description" content="LPRD: Students Building Rocket Engines." />
+	<meta name="keywords" content="rockets, University of Minnesota, space, HeroX, LPRD" />
+	<meta name="author" content="LPRD Rocketry (UMN)" />
+	
 
 	<!-- 
 	//////////////////////////////////////////////////////
@@ -52,6 +53,9 @@
 
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
+	
+	<!--Set Favicon -->
+	<link rel="icon" type="image/x-icon" href="logo.ico" />
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
@@ -60,6 +64,143 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
+	<style>
+	
+.timeline .timeline-item::after, .timeline .timeline-item::before {
+  clear: both;
+  content: '';
+  display: block;
+  width: 100%;
+}
+
+.timeline {
+  margin: 30px auto;
+  padding: 0 10px;
+  position: relative;
+  transition: all 0.25s ease-in;
+  width: 100%;
+}
+
+.timeline::before {
+  background: orange;
+  content: '';
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  top: 0;
+  width: 3px;
+}
+
+.timeline::after {
+  clear: both;
+  content: '';
+  display: table;
+  width: 100%;
+}
+
+.timeline a {
+  color: orange;
+  font-weight: bold;
+  transition: all 0.25s ease-in;
+}
+
+.timeline a:hover {
+  box-shadow: 0 1px 0px 0px #fefefe;
+  transition: all 0.25s ease-in;
+}
+
+.timeline .timeline-item {
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.timeline .timeline-item .timeline-icon {
+  background: #fefefe;
+  border-radius: 50%;
+  height: 50px;
+  left: 50%;
+  margin-left: -23px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 50px;
+}
+
+.timeline .timeline-item .timeline-icon img,
+.timeline .timeline-item .timeline-icon svg {
+  left: 14px;
+  position: relative;
+  top: 11px;
+}
+
+.timeline .timeline-item .timeline-icon svg {
+  top: 14px;
+}
+
+.timeline .timeline-item .timeline-content {
+  padding: 20px;
+  text-align: right;
+  transition: all 0.25s ease-in;
+  width: 45%;
+  background: transparent;
+}
+
+.timeline .timeline-item .timeline-content p {
+  color: black;
+}
+
+.timeline .timeline-item .timeline-content p {
+  font-size: 16px;
+  line-height: 1.4;
+  margin-bottom: 0;
+}
+
+.timeline .timeline-item .timeline-content .timeline-content-date {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.timeline .timeline-item .timeline-content .timeline-content-month {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.timeline .timeline-item .timeline-content.right {
+  float: right;
+  text-align: left;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .timeline {
+    margin: 30px;
+    padding: 0;
+    width: 90%;
+  }
+  .timeline::before {
+    left: 0;
+  }
+  .timeline .timeline-item .timeline-content {
+    float: right;
+    text-align: left;
+    width: 90%;
+  }
+  .timeline .timeline-item .timeline-content::before, .timeline .timeline-item .timeline-content.right::before {
+    border-left: 0;
+    border-right: 7px solid #fefefe;
+    left: 10%;
+    margin-left: -6px;
+  }
+  .timeline .timeline-item .timeline-icon {
+    left: 0;
+  }
+}
+
+
+	</style>
+	
+	
 	</head>
 	<body>
 		
@@ -129,37 +270,21 @@
 		<div class="container">
 			<div class="row">
 				<div class="text-center animate-box">
-					<span class="fh5co-counter js-counter" data-from="-10" data-to="145" data-speed="1200" data-refresh-interval="50"></span>
+					<span class="fh5co-counter js-counter" data-from="-50" data-to="144" data-speed="1200" data-refresh-interval="50"></span>
 					<span class="fh5co-counter-label">Weeks To Final Launch Window</span>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<div id="fh5co-explore" class="fh5co-bg-section">
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
-					<h2>The Mission</h2>
-					<p>Should we achieve our goal, a liquid-propelled rocket designed and built by our subteams will reach space. More exactly, the rocket must reach apogee past the Kármán line (100 kilometers high).</p>
-					<p>For more information, see what HeroX has to say:</p>
-				</div>
-			</div>
-		</div>		
-
-
-
-	</div>
-	
-
-	<div id="fh5co-steps">
+		<div id="fh5co-steps">
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 					<p>&nbsp;</p>
 					<p>&nbsp;</p>
 					<h2>Year-by-Year</h2>
-					<p>Below are a series of tasks that HeroX requires we complete in order to participate in the competition. The four-year line below gives a general idea of the annual goals.</p>
+					<p>Below are a series of tasks that HeroX requires we complete in order to participate in the competition. We've thrown together a four-year outline below that gives a general idea of the annual goals.</p>
 				</div>
 			</div>
 
@@ -195,51 +320,181 @@
 			</div>
 
 		</div>
-		
-		<div class="container">
-<div class="timeline">
-  <div class="container-timeline left">
-    <div class="content-timeline">
-      <h2>2017</h2>
-      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
-    </div>
-  </div>
-  <div class="container-timeline right">
-    <div class="content-timeline">
-      <h2>2016</h2>
-      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
-    </div>
-  </div>
-  <div class="container-timeline left">
-    <div class="content-timeline">
-      <h2>2015</h2>
-      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
-    </div>
-  </div>
-  <div class="container-timeline right">
-    <div class="content-timeline">
-      <h2>2012</h2>
-      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
-    </div>
-  </div>
-  <div class="container-timeline left">
-    <div class="content-timeline">
-      <h2>2011</h2>
-      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
-    </div>
-  </div>
-  <div class="container-timeline right">
-    <div class="content-timeline">
-      <h2>2007</h2>
-      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
-    </div>
-  </div>
-</div>
-			</div>
-		
 	</div>
+	
+	<div id="fh5co-project">
+	
+	<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Chronology</h2>
+					<p>Here are the HeroX deadlines thrown into a format subtly indicates our annual goals.</p>
+				</div>
 
+			<div class="row animate-box">
+				<div class="timeline">
 
+				  <div class="timeline-item">
+					<div class="timeline-icon">
+					  <img src="images/chronology/rocket.svg">
+					</div>
+					<div class="timeline-content">
+					  <p class="timeline-content-date">2018</h2>
+					  <p>Preliminaries</p>
+					</div>
+				  </div>
+
+				  <div class="timeline-item">
+					<div class="timeline-icon">
+					  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M11 6v8h7v-2h-5v-6h-2zm10.854 7.683l1.998.159c-.132.854-.351 1.676-.652 2.46l-1.8-.905c.2-.551.353-1.123.454-1.714zm-2.548 7.826l-1.413-1.443c-.486.356-1.006.668-1.555.933l.669 1.899c.821-.377 1.591-.844 2.299-1.389zm1.226-4.309c-.335.546-.719 1.057-1.149 1.528l1.404 1.433c.583-.627 1.099-1.316 1.539-2.058l-1.794-.903zm-20.532-5.2c0 6.627 5.375 12 12.004 12 1.081 0 2.124-.156 3.12-.424l-.665-1.894c-.787.2-1.607.318-2.455.318-5.516 0-10.003-4.486-10.003-10s4.487-10 10.003-10c2.235 0 4.293.744 5.959 1.989l-2.05 2.049 7.015 1.354-1.355-7.013-2.184 2.183c-2.036-1.598-4.595-2.562-7.385-2.562-6.629 0-12.004 5.373-12.004 12zm23.773-2.359h-2.076c.163.661.261 1.344.288 2.047l2.015.161c-.01-.755-.085-1.494-.227-2.208z"/></svg>
+					  </div>
+					<div class="timeline-content right">
+					  <p class="timeline-content-date">6 June</h2>
+					  <p>The <a href="http://base11spacechallenge.org/" target="_blank">Base 11 Space Challenge</a> kicks off.</p>
+					</div>
+				  </div>
+				  
+				  
+					<div class="timeline-item">
+					<div class="timeline-icon">
+					  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill-rule="evenodd" clip-rule="evenodd"><path d="M17.281 8.991l3.706 1.97-2.261 2.013.011.006 2.25 3.09-2.25 1.228v3.096l-6.75 3.606-6.75-3.606v-3.091l-2.25-1.225 2.234-3.075-2.234-1.966 3.747-2.043c-.108.371-.197.808-.245 1.272l-1.769.964 1.181 1.04.624-.345c.056.339.146.672.279.984l-.823.456 6.028 3.124 5.978-3.119-.812-.451c.145-.299.245-.618.31-.944l.531.293 1.234-1.098-1.707-.907c-.05-.464-.146-.9-.262-1.272zm-4.798 8.217v5.393l5.256-2.807v-1.951l-3.502 1.91-1.754-2.545zm-6.247.639v1.947l5.249 2.804v-5.388l-1.748 2.543-3.501-1.906zm-1.772-2.103l4.96 2.7 1.099-1.599-4.983-2.582-1.076 1.481zm8.989 1.11l1.096 1.59 4.96-2.706-1.073-1.475-4.983 2.591zm-1.199-1.691h-.625l.003-2.728h.625l-.003 2.728zm-1.159-1.424h-.625l.009-1.739h.625l-.009 1.739zm2.358-.014h-.626l-.009-1.725h.625l.01 1.725zm-3.094-2.468l-.318-.734c-.732.269-2.155 2.284-2.155 2.284-1.195-2.607.161-4.846 1.243-5.659-.083-.699-.644-4.168 2.817-7.113l.041-.035.041.035c3.462 2.945 2.901 6.414 2.817 7.113 1.083.813 2.438 3.052 1.243 5.659 0 0-1.423-2.015-2.155-2.284l-.317.734-1.629.005-1.628-.005zm1.628-9.919c-1.093.923-2.432 3.393-1.854 6.223-.726.6-1.58 1.454-1.712 3.089.577-.77 1.419-1.21 2.091-1.356 0 0 .424.782.507.973l.968.003.969-.003c.083-.191.507-.973.507-.973.671.146 1.513.586 2.091 1.356-.133-1.635-.967-2.472-1.693-3.072.586-2.722-.771-5.295-1.861-6.229l-.013-.011zm-.044 5.693c-.284-.001-.515-.231-.515-.516 0-.285.231-.515.515-.515.284 0 .514.23.514.515 0 .285-.23.515-.514.516zm0-1.844c-.569 0-1.029-.462-1.03-1.031.001-.57.461-1.031 1.03-1.031s1.029.461 1.029 1.031c0 .569-.46 1.03-1.029 1.031zm0-1.434c.214 0 .388.174.388.389 0 .215-.174.389-.388.389-.215 0-.389-.174-.389-.389 0-.215.174-.389.389-.389z"/></svg>
+					</div>
+					<div class="timeline-content">
+					  <p class="timeline-content-date">2019</h2>
+					  <p>Prototyping</p>
+					</div>
+				  </div>
+
+				  <div class="timeline-item">
+					<div class="timeline-icon">
+					  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill-rule="evenodd" clip-rule="evenodd"><path d="M11.362 2c4.156 0 2.638 6 2.638 6s6-1.65 6 2.457v11.543h-16v-20h7.362zm.827-2h-10.189v24h20v-14.386c0-2.391-6.648-9.614-9.811-9.614zm4.811 13h-10v-1h10v1zm0 2h-10v1h10v-1zm0 3h-10v1h10v-1z"/></svg>
+					</div>
+					<div class="timeline-content right">
+					  <p class="timeline-content-date">22 March</h2>
+					  <p>
+						<a>HeroX Deadline: Phase 1 Preliminary Design Report Due.</a> Our team needs to have completed a high-level design of its entire vehicle, with data (be it calculation, analysis, simulation and/or initial test data) to support the reliability of all major subsystems. LPRD must also designate a Safety Officer to maintain its Safety Log.
+					  </p>
+					</div>
+				  </div>
+
+				  <div class="timeline-item">
+					<div class="timeline-icon">
+					  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill-rule="evenodd" clip-rule="evenodd"><path d="M11.362 2c4.156 0 2.638 6 2.638 6s6-1.65 6 2.457v11.543h-16v-20h7.362zm.827-2h-10.189v24h20v-14.386c0-2.391-6.648-9.614-9.811-9.614zm4.811 13h-10v-1h10v1zm0 2h-10v1h10v-1zm0 3h-10v1h10v-1z"/></svg>
+					</div>
+					<div class="timeline-content">
+					  <p class="timeline-content-date">25 May</h2>
+					  <p>
+						<a>HeroX announces the winners of Phase 1</a> based upon a <a href="https://drive.google.com/file/d/1Im1YOjyZP8V4pan6ffBsfccnJMeCgAt5/view?usp=sharing" target="_blank">rubric</a>. Also, HeroX will host a static test firing demonstration and safety session.
+					  </p>
+					</div>
+				  </div>
+				  
+				  <div class="timeline-item">
+					<div class="timeline-icon">
+					  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill-rule="evenodd" clip-rule="evenodd"><path d="M11.362 2c4.156 0 2.638 6 2.638 6s6-1.65 6 2.457v11.543h-16v-20h7.362zm.827-2h-10.189v24h20v-14.386c0-2.391-6.648-9.614-9.811-9.614zm4.811 13h-10v-1h10v1zm0 2h-10v1h10v-1zm0 3h-10v1h10v-1z"/></svg>
+					</div>
+					<div class="timeline-content right">
+					  <p class="timeline-content-date">8 Nov</h2>
+					  <p>
+						<a>HeroX deadline: Phase 2 Interim Report Due.</a> Our team must submit a report documenting the fruits of its cyclically generating new prototypes, evaluating test results, and prototyping all over again.
+					  </p>
+					</div>
+				  </div>
+				  
+				  <div class="timeline-item">
+					<div class="timeline-icon">
+					  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill-rule="evenodd" clip-rule="evenodd"><path d="M0 12l11 3.1 7-8.1-8.156 5.672-4.312-1.202 15.362-7.68-3.974 14.57-3.75-3.339-2.17 2.925v-.769l-2-.56v7.383l4.473-6.031 4.527 4.031 6-22z"/></svg>
+					</div>
+					<div class="timeline-content">
+					  <p class="timeline-content-date">2020</h2>
+					  <p>Design Submission</p>
+					</div>
+				  </div>
+
+				  <div class="timeline-item">
+					<div class="timeline-icon">
+					  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill-rule="evenodd" clip-rule="evenodd"><path d="M11.362 2c4.156 0 2.638 6 2.638 6s6-1.65 6 2.457v11.543h-16v-20h7.362zm.827-2h-10.189v24h20v-14.386c0-2.391-6.648-9.614-9.811-9.614zm4.811 13h-10v-1h10v1zm0 2h-10v1h10v-1zm0 3h-10v1h10v-1z"/></svg>
+					</div>
+					<div class="timeline-content right">
+					  <p class="timeline-content-date">20 Mar</h2>
+					  <p>
+						<a>HeroX deadline: Phase 2 Critical Design Report Due.</a> If we submit this report in advance, we can expect judge feedback at the May 2020 <a href="https://www.base11.com/event/aerospace2019/" target="_blank">Base 11 Aerospace Symposium</a>.
+					  </p>
+					</div>
+				  </div>
+				  
+				  <div class="timeline-item">
+					<div class="timeline-icon">
+					  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill-rule="evenodd" clip-rule="evenodd"><path d="M11.362 2c4.156 0 2.638 6 2.638 6s6-1.65 6 2.457v11.543h-16v-20h7.362zm.827-2h-10.189v24h20v-14.386c0-2.391-6.648-9.614-9.811-9.614zm4.811 13h-10v-1h10v1zm0 2h-10v1h10v-1zm0 3h-10v1h10v-1z"/></svg>
+					</div>
+					<div class="timeline-content">
+					  <p class="timeline-content-date">22 May</h2>
+					  <p>
+					  <a>HeroX deadline: Static Test Firing Award Submissions Due.</a> Prior to the static test firing, we must submit for approval a design that meets the <a href="https://drive.google.com/file/d/1cRHsfQy4rH8pRh1iSfohzETSTpolObQS/view?usp=sharing" target="_blank">static test firing guidelines</a>. Following authorization from HeroX, we must perform a test firing and submit a report by this date.
+					  </p>
+					</div>
+				  </div>
+				  
+				  <div class="timeline-item">
+					<div class="timeline-icon">
+					  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill-rule="evenodd" clip-rule="evenodd"><path d="M7.467 0c1.102.018 5.555 2.549 6.386 8.558.905-.889 1.409-3.664 1.147-4.843 3.952 2.969 6 6.781 6 11.034 0 5.094-3.43 9.251-8.963 9.251-5.728 0-9.037-3.753-9.037-8.276 0-6.26 5.052-7.62 4.467-15.724zm3.262 19.743c-.749.848-.368 1.945.763 2.045 1.035.093 1.759-.812 2.032-1.792.273-.978.09-2.02-.369-2.893-.998 1.515-1.52 1.64-2.426 2.64zm4.42 1.608c2.49-1.146 3.852-3.683 3.852-6.58 0-2.358-.94-4.977-2.5-7.04-.743 2.867-2.924 3.978-4.501 4.269.05-3.219-.318-6.153-2.602-8.438-.296 4.732-4.321 7.63-4.398 12.114-.029 1.511.514 3.203 1.73 4.415.491.489 1.054.871 1.664 1.16-.121-.608-.062-1.254.195-1.848.911-2.106 3.333-2.321 4.202-5.754.952.749 3.275 3.503 2.778 6.358-.082.469-.224.923-.42 1.344z"/></svg>					</div>
+					<div class="timeline-content right">
+					  <p class="timeline-content-date">30 May</h2>
+					  <p>
+					  <a>HeroX: First Launch Window.</a> In order to attempt a launch, we must have successfully submitted both Phase 1 and 2 Reports, as well as our Phase 3 Launch Readiness Report (which includes all design files and safety logs). We must submit Phase 3 documents at least 90 days before the launch window. At this time, judges will either authorize or deny the proposed launch.</a>.
+					  </p>
+					</div>
+				  </div>
+				  
+				  <div class="timeline-item">
+					<div class="timeline-icon">
+					  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill-rule="evenodd" clip-rule="evenodd"><path d="M7.467 0c1.102.018 5.555 2.549 6.386 8.558.905-.889 1.409-3.664 1.147-4.843 3.952 2.969 6 6.781 6 11.034 0 5.094-3.43 9.251-8.963 9.251-5.728 0-9.037-3.753-9.037-8.276 0-6.26 5.052-7.62 4.467-15.724zm3.262 19.743c-.749.848-.368 1.945.763 2.045 1.035.093 1.759-.812 2.032-1.792.273-.978.09-2.02-.369-2.893-.998 1.515-1.52 1.64-2.426 2.64zm4.42 1.608c2.49-1.146 3.852-3.683 3.852-6.58 0-2.358-.94-4.977-2.5-7.04-.743 2.867-2.924 3.978-4.501 4.269.05-3.219-.318-6.153-2.602-8.438-.296 4.732-4.321 7.63-4.398 12.114-.029 1.511.514 3.203 1.73 4.415.491.489 1.054.871 1.664 1.16-.121-.608-.062-1.254.195-1.848.911-2.106 3.333-2.321 4.202-5.754.952.749 3.275 3.503 2.778 6.358-.082.469-.224.923-.42 1.344z"/></svg>					</div>
+					<div class="timeline-content">
+					  <p class="timeline-content-date">5 Dec</h2>
+					  <p>
+					  <a>HeroX: Second Launch Window.</a> Judges will either authorize or deny the proposed launch by the same criteria as in the first launch window.
+					  </p>
+					</div>
+				  </div>
+				  
+				  <div class="timeline-item">
+					<div class="timeline-icon">
+					  <img src="https://cdns.iconmonstr.com/wp-content/assets/preview/2017/96/iconmonstr-check-mark-18.png" class="" height="21" width="21" alt="">
+					</div>
+					<div class="timeline-content right">
+					  <p class="timeline-content-date">2021</h2>
+					  <p>Approval and Launch</p>
+					</div>
+				  </div>
+				  
+				  <div class="timeline-item">
+					<div class="timeline-icon">
+					  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill-rule="evenodd" clip-rule="evenodd"><path d="M7.467 0c1.102.018 5.555 2.549 6.386 8.558.905-.889 1.409-3.664 1.147-4.843 3.952 2.969 6 6.781 6 11.034 0 5.094-3.43 9.251-8.963 9.251-5.728 0-9.037-3.753-9.037-8.276 0-6.26 5.052-7.62 4.467-15.724zm3.262 19.743c-.749.848-.368 1.945.763 2.045 1.035.093 1.759-.812 2.032-1.792.273-.978.09-2.02-.369-2.893-.998 1.515-1.52 1.64-2.426 2.64zm4.42 1.608c2.49-1.146 3.852-3.683 3.852-6.58 0-2.358-.94-4.977-2.5-7.04-.743 2.867-2.924 3.978-4.501 4.269.05-3.219-.318-6.153-2.602-8.438-.296 4.732-4.321 7.63-4.398 12.114-.029 1.511.514 3.203 1.73 4.415.491.489 1.054.871 1.664 1.16-.121-.608-.062-1.254.195-1.848.911-2.106 3.333-2.321 4.202-5.754.952.749 3.275 3.503 2.778 6.358-.082.469-.224.923-.42 1.344z"/></svg>					</div>
+					<div class="timeline-content">
+					  <p class="timeline-content-date">15 May</h2>
+					  <p>
+					  <a>HeroX: Third Launch Window.</a> Judges will either authorize or deny the proposed launch by the same criteria as in the first launch window.
+					  </p>
+					</div>
+				  </div>
+				  
+				  <div class="timeline-item">
+					<div class="timeline-icon">
+					  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill-rule="evenodd" clip-rule="evenodd"><path d="M7.467 0c1.102.018 5.555 2.549 6.386 8.558.905-.889 1.409-3.664 1.147-4.843 3.952 2.969 6 6.781 6 11.034 0 5.094-3.43 9.251-8.963 9.251-5.728 0-9.037-3.753-9.037-8.276 0-6.26 5.052-7.62 4.467-15.724zm3.262 19.743c-.749.848-.368 1.945.763 2.045 1.035.093 1.759-.812 2.032-1.792.273-.978.09-2.02-.369-2.893-.998 1.515-1.52 1.64-2.426 2.64zm4.42 1.608c2.49-1.146 3.852-3.683 3.852-6.58 0-2.358-.94-4.977-2.5-7.04-.743 2.867-2.924 3.978-4.501 4.269.05-3.219-.318-6.153-2.602-8.438-.296 4.732-4.321 7.63-4.398 12.114-.029 1.511.514 3.203 1.73 4.415.491.489 1.054.871 1.664 1.16-.121-.608-.062-1.254.195-1.848.911-2.106 3.333-2.321 4.202-5.754.952.749 3.275 3.503 2.778 6.358-.082.469-.224.923-.42 1.344z"/></svg>					</div>
+					<div class="timeline-content right">
+					  <p class="timeline-content-date">11 Dec</h2>
+					  <p>
+					  <a>HeroX: Last Launch Window.</a> In order to attempt a launch at the final launch window, we must submit Phase 3 documents by June 18, 2021. Judges will provide written feedback by August 13, and will provide review and discussion in early September. Launch approval or denial will arrive by early October.
+					  </p>
+					</div>
+				  </div>
+				
+				</div>
+			</div>
+		</div>
+					
+					
+	</div>
 
 	<div id="fh5co-started" style="background-image:url(images/img_bg_2.jpg);">
 		<div class="overlay"></div>
@@ -338,6 +593,7 @@
 	<!-- Main -->
 	<script src="js/main.js"></script>
 
+	
 	</body>
 </html>
 
